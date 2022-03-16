@@ -1,0 +1,247 @@
+@media all and (max-width: 1000px){
+    /*Responsive untuk Top*/
+    .top-wrapper{
+        background-image: url(pexels-pixabay-355829.jpg);
+        background-size: cover 50%;
+        color: white;
+        padding: 170px 0px 30px 0px;
+        font-family: "raleway";
+        height: 60vh;
+    }
+
+    .top-wrapper h1{
+        font-size: 41px;
+    }
+
+    .top-wrapper p{
+        font-size: 14px;
+        width : 350px;
+    }
+
+    /*Responsive bagian "About us"*/
+    .about-wrapper {
+        font-family: "raleway";
+        padding-top : 60px;
+    }
+
+    .about {
+        width: 50%;
+        margin-top :10px;
+        margin-bottom: 10px;
+    }
+    .container-about {
+        height : 740px;
+    }
+    .about-card i{
+        margin-left:40px;
+    }
+    
+    .about p{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /*Responsive bagian "Gallery"*/
+    .gallery-wrapper {
+        padding-top: 50px;
+    }
+
+    .gallery {
+        width: 50%;
+        float: left;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+        margin-bottom: 40px;
+    }
+
+    .gallery-card {
+        margin: 0 auto;
+    }
+
+    img {
+        width: 330px;
+        height: 264px;
+    }
+
+    .container-gallery {
+        height : 800px;
+    }
+
+    .view {
+        margin-top: 200px;
+    }
+}
+
+
+
+@media all and (max-width: 670px){
+header {
+    height: 50px;
+    width: 100%;
+}
+    
+.header-right a{
+    line-height: 50px;
+}
+    
+.logo {
+    width: 150px;
+    line-height: 50px;
+}
+/*Responsive untuk Top*/
+.top-wrapper{
+    background-image: url(pexels-pixabay-355829.jpg);
+    background-size: cover 25%;
+    color: white;
+    padding: 120px 0px 30px 0px;
+    font-family: "raleway";
+    height: 60vh;
+}
+.top-wrapper h1{
+    font-size: 30px;
+}
+
+.top-wrapper p{
+    font-size: 11px;
+    width : 270px;
+}
+
+.btn-wrapper a{
+    font-size: 14px;
+}
+
+.btn {
+    padding: 12px 18px;
+    color: black;
+    /* display: inline-block; */
+    opacity: 0.8;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.contact-wrapper{
+    padding: 70px 0px 20px 0px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.contact-wrapper a{
+    margin-right: 55px;
+    margin-bottom : 20px;
+}
+
+.fa-brands {
+    margin-bottom: 20px;
+}
+
+.fa-instagram {
+    margin-left : 5px;
+}
+
+/*Responsive bagian About us*/
+.about {
+    width: 100%;
+    float: left;
+}
+
+.about-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 105px;
+}
+
+.container-about {
+    background-color: white;
+    width: 100%;
+    max-width: 1170px;
+    height : 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*Responsive bagian Gallery*/
+.gallery-wrapper {
+    padding-top: 50px;
+}
+
+.gallery {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 300px;
+    height: 240px;
+}
+
+.container-gallery {
+    height : 1280px;
+}
+
+.view {
+    color: white;
+    background-color: black;
+}
+
+/*Responsive bagian Contact us*/
+.message-wrapper {
+    padding-top : 40px;
+}
+
+.container-message h2{
+    font-size: 22px;
+}
+
+.container-message p{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.message-card i{
+    font-size: 75%;
+}
+.message-card {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container-message {
+    width: 100%;
+    max-width: 1170px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 0 15px;
+    left: 0;
+}
+
+/*Responsive bagian Footer*/
+.footer {
+    background-color: black;
+    color: #fff;
+    height: 90px;
+    padding: 10px;
+    font-family: "Raleway";
+}
+
+.footer-logo {
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+  
+.footer-list li {
+    padding-bottom: 5px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.header-right {
+    display: none;
+}
+
+.fa-bars {
+    display: block;
+    color: black;
+} 
+}
